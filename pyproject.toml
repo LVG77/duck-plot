@@ -1,6 +1,6 @@
 [project]
 name = "duck-plot"
-version = "0.11"
+version = "0.12"
 description = "Plot the output of duckdb query"
 readme = "README.md"
 authors = [{name = "Lyubomir Georgiev"}]
