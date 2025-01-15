@@ -134,8 +134,6 @@ def visualize(
         chart = create_visualization(df, x_column, y_column, chart_type)
         alt.renderers.enable('browser')
         chart.show()
-        # Save chart to temporary file 
-            
         typer.echo(f"Successfully created {chart_type} chart!", err=True)
         
     except Exception as e:
